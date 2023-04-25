@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dziennik praktyk</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    <h1>Dziennik praktyk</h1>
+    <div>
+        <h4>Podstawowe dane:</h4>
+        <p>
+            <legend>Imię i nazwisko praktykanta:</legend>
+            <label for="praktykant">
+                <input type="text" id="praktykant" name="praktykant" placeholder="Wpisz swoje imię i nazwisko" size="60"
+                    required /></label>
+        </p>
+        <P>
+            <legend>Imię i nazwisko opiekuna praktyk:</legend>
+            <label for="opiekun">
+                <input type="text" id="opiekun" name="opiekun"
+                    placeholder="Wpisz imię i nazwisko swojego opiekuna praktyk" size="60" required /></label>
+        </P>
+        <p>
+            <legend>Miejsce odbywania praktyk:</legend>
+            <label for="zaklad">
+                <input type="text" id="zaklad" name="zaklad"
+                    placeholder="Wpisz nazwę zakładu, w którym odbywałeś praktyki" size="60" required /></label>
+        </p>
+        <p>
+            <legend>Klasa:</legend>
+            <label for="klasa">
+                <select id="elementType">
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select></label>
+        </p>
+        <p>
+            <legend>Rok szkolny:</legend>
+            <label for="rok">
+                <select id="elementType">
+                    <option value="2022/23">2022/23</option>
+                    <option value="2021/22">2021/22</option>
+                    <option value="2020/21">2020/21</option>
+                    <option value="2019/20">2019/20</option>
+                </select></label>
+        </p>
+        <p>
+            <legend>Data rozpoczęcia praktyk:</legend>
+            <label for="poczatek">
+                <input type="date" id="elementDate" required /></label>
+        </p>
+        <p>
+            <legend>Data zakończenia praktyk:</legend>
+            <label for="koniec">
+                <input type="date" id="elementDate" required /></label>
+        </p>
+        <p>
+            <button><a href="bhp.html">DALEJ</a></button>
+        </p>
+    </div>
+    <footer>
+        © Łukasz Maćkowiak 3i
+    </footer>
+
+</body>
+
+</html>

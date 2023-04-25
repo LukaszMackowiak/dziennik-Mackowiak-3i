@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pl">
+<link rel="stylesheet" href="main.css" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Dziennik praktyk</h1>
+    <h4>Dziennik:</h4>
+
+    <p>
+        <legend>Dzień:</legend>
+        <label for="dzien">
+            <select id="dzien">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+            </select></label>
+    </p>
+    <p>
+        <legend>Data:</legend>
+        <label for="data">
+            <input type="date" id="data" required /></label>
+    </p>
+
+    <p>
+        <legend>Nazwa działu:</legend>
+        <label for="dzial">
+            <input type="text" id="dzial" name="dzial"
+                placeholder="Wpisz nazwę działu, w którym odbywałeś praktyki w danym dniu" size="60" required /></label>
+    </p>
+    <p>
+        <legend>Zakres obowiązków:</legend>
+        <label for="temat">
+            <select id="temat">
+                <optgroup label="Wstęp">
+                    <option value="czynnosci wstepne">Czynności wstępne i szkolenia, struktura i organizacja pracy
+                        informatyków</option>
+                    <option value="struktura organizacyjna">Struktura organizacyjna przedsiębiorstwa i elementy
+                        przetwarzania informacji</option>
+                </optgroup>
+                <optgroup label="Sprzęt komputerowy">
+                    <option value="konfigutacja sprzetu">Konfiguracja sprzętu komputerowego i oprogramowania</option>
+                    <option value="montaz naprawa">Montaż, naprawa, konserwacja i obsługa sprzętu komputerowego</option>
+                </optgroup>
+                <optgroup label="Systemy">
+                    <option value="zasady administrowania">Zasady administrowania systemami informatycznymi i
+                        archiwizowania danych</option>
+                    <option value="dokumentacja technologiczna">Dokumentacja technologiczna przetwarzania informacji
+                    </option>
+                    <option value="obsluga programow">Obsługa programów używanych w przedsiębiorstwie, komputerowe
+                        wspomaganie
+                        procesów projektowania</option>
+                </optgroup>
+                <optgroup label="Sieci komputerowe">
+                    <option value="zapoznanie z programami">Zapoznanie z programami do administracji lokalnymi sieciami
+                        komputerowymi</option>
+                </optgroup>
+                <optgroup label="Bazy danych">
+                    <option value="biblioteki oprogramowania">Biblioteki oprogramowania i zbiorów danych</option>
+                    <option value="organizacja zbieranie">Organizacja, zbieranie i kontrola danych, przetwarzanie i
+                        wykorzystywanie
+                        wyników</option>
+                    <option value="ochrona danych">Ochrona danych i procesów przetwarzania</option>
+                </optgroup>
+                <optgroup label="Aplikacje internetowe">
+                    <option value="tworzenie stron">Tworzenie stron internetowych</option>
+                    <option value="konfiguracja serwerow">Konfiguracja serwerów i przeglądarek pod obsługę aplikacji
+                        internetowych</option>
+                </optgroup>
+                <optgroup label="Programowanie">
+                    <option value="elementy procesow">Elementy procesów projektowania, programowania i uruchamiania
+                        programów
+                        komputerowych</option>
+                </optgroup>
+            </select></label>
+    </p>
+    <p>
+        <label>Stopień zrealizowania tematu:</label>
+        <label for="realizacja">
+            <input type="range" id="realizacja" min="1" max="6" step="1" value="6" />
+        </label>
+    </p>
+    <p>
+        <legend>Szczegółowe informacje na temat wykonywanych prac:</legend>
+        <label for="sprawozdanie">
+            <input type="text" id="sprawozdanie" name="sprawozdanie" placeholder="Napisz, co robiłeś w danym dniu"
+                size="200" required /></label>
+    </p>
+    <p>
+        <button>Dodaj do dziennika</button>
+    </p>
+    <p>
+        <button><a href="bhp.html">Powrót</a></button>
+        <button><a href="ocena.html">DALEJ</a></button>
+    </p>
+    <footer>
+        © Łukasz Maćkowiak 3i
+    </footer>
+</body>
+
+</html>
